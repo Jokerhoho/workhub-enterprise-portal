@@ -51,7 +51,7 @@ onMounted(async () => {
         <div class="portal-eyebrow"><span aria-hidden="true"></span>企业 AI 能力中心</div>
         <h1 id="portal-hero-title">让知识、工具与流程，<br />在一个入口协同</h1>
         <p class="portal-hero__summary">
-          面向内部团队的 WorkBuddy 知识与工具门户。快速找到可信指南、经过验证的工作流和岗位实践，把一次成功沉淀为团队能力。
+          面向内部团队的企业 AI 门户。统一学习 WorkBuddy、千问办公与 Codex，快速找到可信指南、经过验证的工作流和可安装 Skills。
         </p>
         <button class="portal-search" type="button" aria-label="打开全站搜索" @click="openSearch">
           <span class="portal-search__icon" aria-hidden="true"></span>
@@ -60,6 +60,7 @@ onMounted(async () => {
         </button>
         <div class="portal-hero__actions">
           <a class="portal-button portal-button--primary" :href="withBase('/tools/')">进入 AI 工具库 <span aria-hidden="true">→</span></a>
+          <a class="portal-button portal-button--secondary" :href="withBase('/skills/')">浏览 Skills 平台</a>
           <a class="portal-button portal-button--secondary" :href="withBase('/bluebook/')">进入知识中心</a>
           <a class="portal-button portal-button--secondary" :href="withBase('/reading-guide')">查看上手路径</a>
         </div>
@@ -105,10 +106,16 @@ onMounted(async () => {
 
     <section class="portal-section portal-tools" aria-labelledby="portal-tools-title">
       <div class="portal-section__heading">
-        <div><span>AI TOOL LIBRARY</span><h2 id="portal-tools-title">先把两个核心工具用起来</h2></div>
+        <div><span>AI TOOL LIBRARY</span><h2 id="portal-tools-title">三个核心工具，各司其职</h2></div>
         <p>按任务类型选工具，教程统一覆盖上手方法、可复制模板与安全边界。</p>
       </div>
       <div class="portal-tools__grid">
+        <a class="portal-tool-card portal-tool-card--workbuddy" :href="withBase('/tools/workbuddy/')">
+          <header><span class="portal-tool-card__code">WB</span><span class="portal-tool-card__status">通用工作</span></header>
+          <div><small>WORKBUDDY</small><h3>WorkBuddy</h3><p>面向本地文件、知识处理和跨工具工作流，把 Skill、Agent、连接器与自动化组织在一起。</p></div>
+          <ul aria-label="WorkBuddy 适用场景"><li>文件</li><li>知识</li><li>Skill</li><li>自动化</li></ul>
+          <footer><span>业务与流程团队</span><strong>查看教程 →</strong></footer>
+        </a>
         <a class="portal-tool-card portal-tool-card--qwen" :href="withBase('/tools/qwen-office/')">
           <header><span class="portal-tool-card__code">QW</span><span class="portal-tool-card__status">办公生产</span></header>
           <div><small>QWENWORK</small><h3>千问办公</h3><p>面向文档、表格、演示和日常协作，从一句任务描述到可继续编辑的办公成果。</p></div>
@@ -121,6 +128,23 @@ onMounted(async () => {
           <ul aria-label="Codex 适用场景"><li>读代码</li><li>修问题</li><li>做功能</li><li>跑验证</li></ul>
           <footer><span>研发团队优先</span><strong>查看教程 →</strong></footer>
         </a>
+      </div>
+    </section>
+
+    <section class="portal-section portal-skills" aria-labelledby="portal-skills-title">
+      <div class="portal-skills__visual">
+        <img :src="withBase('/images/skills/ai-tools-and-skills-hero.webp')" alt="三个 AI 工具通过可安装 Skills 协同工作的系统插画" width="1600" height="900" />
+      </div>
+      <div class="portal-skills__copy">
+        <span>SKILLS PLATFORM</span>
+        <h2 id="portal-skills-title">从会用工具，到拥有专业能力库</h2>
+        <p>精选主流 Skill、Agent、Plugin 与 MCP。每个条目都附快速安装、使用文档、实战案例和企业安全检查。</p>
+        <ul>
+          <li><b>01</b><span><strong>精选来源</strong><small>官方与高质量社区项目</small></span></li>
+          <li><b>02</b><span><strong>快速安装</strong><small>命令可复制，步骤可复现</small></span></li>
+          <li><b>03</b><span><strong>实战验收</strong><small>案例、权限与回退一起说明</small></span></li>
+        </ul>
+        <a :href="withBase('/skills/')">进入 Skills 平台 →</a>
       </div>
     </section>
 

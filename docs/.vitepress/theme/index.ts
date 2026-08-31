@@ -46,6 +46,10 @@ export default {
   enhanceApp({ app, router }) {
     app.component("HomePage", HomePage);
     app.component(
+      "SkillsCatalog",
+      defineAsyncComponent(() => import("./components/SkillsCatalog.vue")),
+    );
+    app.component(
       "MermaidDiagram",
       defineAsyncComponent(() => import("./components/MermaidDiagram.vue")),
     );

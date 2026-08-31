@@ -139,11 +139,27 @@ const casesSidebar: DefaultTheme.SidebarItem[] = [
 const toolsSidebar: DefaultTheme.SidebarItem[] = [
   { text: "工具库首页", link: "/tools/" },
   {
-    text: "办公与研发",
+    text: "通用、办公与研发",
     collapsed: false,
     items: [
+      { text: "WorkBuddy", link: "/tools/workbuddy/" },
       { text: "千问办公", link: "/tools/qwen-office/" },
       { text: "Codex", link: "/tools/codex/" },
+    ],
+  },
+];
+
+const skillsSidebar: DefaultTheme.SidebarItem[] = [
+  { text: "Skills 平台首页", link: "/skills/" },
+  { text: "安全安装指南", link: "/skills/getting-started/" },
+  { text: "创建团队 Skill", link: "/skills/create/" },
+  {
+    text: "实战案例",
+    collapsed: false,
+    items: [
+      { text: "网站体验巡检", link: "/skills/cases/web-design-review/" },
+      { text: "代码审查门禁", link: "/skills/cases/code-review-gate/" },
+      { text: "办公交付流水线", link: "/skills/cases/document-pipeline/" },
     ],
   },
 ];
@@ -151,6 +167,7 @@ const toolsSidebar: DefaultTheme.SidebarItem[] = [
 export const siteSidebar: DefaultTheme.Sidebar = {
   ...bluebookSidebar,
   "/tools/": toolsSidebar,
+  "/skills/": skillsSidebar,
   "/cases/": casesSidebar,
   "/community/case-contributing": casesSidebar,
 };

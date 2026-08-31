@@ -76,6 +76,7 @@ export default defineConfig({
       nav: [
         { text: "首页", link: "/" },
         { text: "AI 工具库", link: "/tools/" },
+        { text: "Skills 平台", link: "/skills/" },
         { text: "知识中心", link: "/bluebook/" },
         { text: "场景案例", link: "/cases/" },
         { text: "使用支持", link: "/help/" },
