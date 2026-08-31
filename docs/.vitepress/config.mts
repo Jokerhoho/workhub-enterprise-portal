@@ -89,7 +89,7 @@ export default defineConfig({
       },
       footer: {
         message: "企业 AI 知识、工具与流程的统一入口",
-        copyright: "WorkHub 企业 AI 工作台 · 基于 WorkBuddyGuide 开源内容构建",
+        copyright: "WorkHub 企业 AI 工作台",
       },
     },
   });
