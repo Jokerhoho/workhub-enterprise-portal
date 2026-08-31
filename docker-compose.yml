@@ -1,0 +1,10 @@
+services:
+  workhub:
+    build:
+      context: .
+      args:
+        VITEPRESS_SITE_URL: ${VITEPRESS_SITE_URL:-http://workhub.intra}
+        VITEPRESS_PUBLIC_MODE: ${VITEPRESS_PUBLIC_MODE:-false}
+    ports:
+      - "8080:8080"
+    restart: unless-stopped

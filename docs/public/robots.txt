@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /
+
+# 内网模式默认禁止索引。公网发布时请按 DEPLOYMENT.md 更新本文件并设置
+# VITEPRESS_PUBLIC_MODE=true。
