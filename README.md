@@ -34,6 +34,6 @@ npm run docs:build
 
 ## 内容与版权
 
-本项目基于 [AlephAITech/WorkBuddyGuide](https://github.com/AlephAITech/WorkBuddyGuide) 改版，保留原项目的 WorkBuddy 实战内容、MIT License 与原作者版权声明。新版主要重构了品牌、首页信息架构、导航、视觉系统、交互和部署配置。
+当前维护仓库为 [Jokerhoho/workhub-enterprise-portal](https://github.com/Jokerhoho/workhub-enterprise-portal)。站点保留 WorkBuddy 实战内容与 MIT License，新版主要重构了品牌、首页信息架构、导航、视觉系统、交互和部署配置。
 
 涉及产品功能、价格、可用范围和安全策略等时效性信息时，请以 WorkBuddy 官方渠道为准。对外发布前，请检查并移除不适合公开的公司资料、联系人和截图。

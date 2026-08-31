@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://workbuddy.homes/">
+  <a href="https://jokerhoho.github.io/workhub-enterprise-portal/">
     <img src="./assets/workbuddy-guide-banner.png" alt="WorkBuddy Bluebook homepage preview" width="100%">
   </a>
 </p>
@@ -10,7 +10,7 @@
 
 <p align="center">
   English · <a href="./README.md">简体中文</a> ·
-  <a href="https://workbuddy.homes/">Read Online</a> ·
+  <a href="https://jokerhoho.github.io/workhub-enterprise-portal/">Read Online</a> ·
   <a href="./docs/reading-guide.md">Reading Guide</a> ·
   <a href="./CONTRIBUTING_en.md">Contribute</a>
 </p>
@@ -19,7 +19,7 @@
 
 ## Read Online
 
-The recommended reading experience is **[workbuddy.homes](https://workbuddy.homes/)**. The website provides full navigation, local search, page outlines, dark mode, rendered diagrams, and mobile support.
+The recommended reading experience is **[WorkHub Enterprise Portal](https://jokerhoho.github.io/workhub-enterprise-portal/)**. The website provides full navigation, local search, page outlines, dark mode, rendered diagrams, and mobile support.
 
 The book is currently written primarily in Simplified Chinese. English contributions and translation proposals are welcome.
 
@@ -66,29 +66,11 @@ Contributions are welcome, including:
 - improvements to navigation, search, design, and accessibility;
 - English translations.
 
-Read the [Contribution Guide](./CONTRIBUTING_en.md) or open an [Issue](https://github.com/AlephAITech/WorkBuddyGuide/issues).
+Read the [Contribution Guide](./CONTRIBUTING_en.md) or open an [Issue](https://github.com/Jokerhoho/workhub-enterprise-portal/issues).
 
 ## Deployment
 
-The site uses **VitePress + Cloudflare Pages + GitHub**. Cloudflare Pages builds and deploys the `main` branch automatically. See [DEPLOYMENT.md](./DEPLOYMENT.md) for the exact settings.
-
-## Authors
-
-Thanks to the authors who create and maintain The WorkBuddy Bluebook. Click a card to view the full-size image and scan its QR code.
-
-<p align="center">
-  <a href="./assets/authors/jia-mu-wei-lai-pai.png"><img src="./assets/authors/jia-mu-wei-lai-pai.png" alt="甲木未来派" width="48%"></a>
-  <a href="./assets/authors/mo-yu-xiao-li.png"><img src="./assets/authors/mo-yu-xiao-li.png" alt="摸鱼小李" width="48%"></a>
-</p>
-
-<p align="center">
-  <a href="./assets/authors/dai-shu-di-ai-ke-zhan.png"><img src="./assets/authors/dai-shu-di-ai-ke-zhan.png" alt="袋鼠帝AI客栈" width="48%"></a>
-  <a href="./assets/authors/liu-cong-nlp.png"><img src="./assets/authors/liu-cong-nlp.png" alt="刘聪NLP" width="48%"></a>
-</p>
-
-<p align="center">
-  <a href="./assets/authors/cang-he.png"><img src="./assets/authors/cang-he.png" alt="苍何" width="48%"></a>
-</p>
+The site uses **VitePress + GitHub Pages**. GitHub Actions builds and deploys the `main` branch automatically. See [DEPLOYMENT.md](./DEPLOYMENT.md) for the exact settings.
 
 ## Disclaimer
 

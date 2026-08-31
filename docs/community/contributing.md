@@ -18,7 +18,7 @@ WorkBuddy 的能力、界面和使用方式会持续变化。这本蓝皮书希�
 
 ## 最轻量的方式：提交 Issue
 
-如果暂时不想修改文件，可以在 [GitHub Issues](https://github.com/AlephAITech/WorkBuddyGuide/issues) 中说明：
+如果暂时不想修改文件，可以在 [GitHub Issues](https://github.com/Jokerhoho/workhub-enterprise-portal/issues) 中说明：
 
 1. 哪一页需要调整。
 2. 现在的问题是什么。
@@ -33,7 +33,7 @@ WorkBuddy 的能力、界面和使用方式会持续变化。这本蓝皮书希�
 4. 本地运行 `npm install` 和 `npm run docs:build`。
 5. 提交 Pull Request，并说明改动、原因和验证方式。
 
-完整规范见仓库根目录的 [CONTRIBUTING.md](https://github.com/AlephAITech/WorkBuddyGuide/blob/main/CONTRIBUTING.md)。
+完整规范见仓库根目录的 [CONTRIBUTING.md](https://github.com/Jokerhoho/workhub-enterprise-portal/blob/main/CONTRIBUTING.md)。
 
 ## 内容原则
 

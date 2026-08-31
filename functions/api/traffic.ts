@@ -16,11 +16,7 @@ interface Env extends AnalyticsEnv {
   TRAFFIC_DB: D1Database;
 }
 
-const PUBLIC_HOSTS = [
-  "workbuddy-guide.pages.dev",
-  "workbuddy.homes",
-  "www.workbuddy.homes",
-];
+const PUBLIC_HOSTS = ["jokerhoho.github.io"];
 
 function json(body: unknown, status = 200, cache = false): Response {
   return new Response(JSON.stringify(body), {
