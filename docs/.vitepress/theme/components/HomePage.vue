@@ -59,7 +59,8 @@ onMounted(async () => {
           <kbd>⌘ K</kbd>
         </button>
         <div class="portal-hero__actions">
-          <a class="portal-button portal-button--primary" :href="withBase('/bluebook/')">进入知识中心 <span aria-hidden="true">→</span></a>
+          <a class="portal-button portal-button--primary" :href="withBase('/tools/')">进入 AI 工具库 <span aria-hidden="true">→</span></a>
+          <a class="portal-button portal-button--secondary" :href="withBase('/bluebook/')">进入知识中心</a>
           <a class="portal-button portal-button--secondary" :href="withBase('/reading-guide')">查看上手路径</a>
         </div>
       </div>
@@ -99,6 +100,27 @@ onMounted(async () => {
         <a :href="withBase('/bluebook/第二篇%20案例篇：从一项任务到一支%20AI%20团队/第%2018%20章%20把投资分析变成你的日常/')"><span class="portal-quick__code">LAB</span><strong>专业分析</strong><small>研究 · 诊断 · 决策</small><i>→</i></a>
         <a :href="withBase('/bluebook/第二篇%20案例篇：从一项任务到一支%20AI%20团队/第%2019%20章%20一句话召唤%20AI%20视频团队/')"><span class="portal-quick__code">MKT</span><strong>内容生产</strong><small>视频 · 自媒体 · GEO</small><i>→</i></a>
         <a :href="withBase('/bluebook/第三篇%20进阶篇：把案例变成自己的工作系统/第%2024%20章%20如何进行多%20Agent%20系统设计/')"><span class="portal-quick__code">AUT</span><strong>AI 工作系统</strong><small>Skill · Agent · 自动化</small><i>→</i></a>
+      </div>
+    </section>
+
+    <section class="portal-section portal-tools" aria-labelledby="portal-tools-title">
+      <div class="portal-section__heading">
+        <div><span>AI TOOL LIBRARY</span><h2 id="portal-tools-title">先把两个核心工具用起来</h2></div>
+        <p>按任务类型选工具，教程统一覆盖上手方法、可复制模板与安全边界。</p>
+      </div>
+      <div class="portal-tools__grid">
+        <a class="portal-tool-card portal-tool-card--qwen" :href="withBase('/tools/qwen-office/')">
+          <header><span class="portal-tool-card__code">QW</span><span class="portal-tool-card__status">办公生产</span></header>
+          <div><small>QWENWORK</small><h3>千问办公</h3><p>面向文档、表格、演示和日常协作，从一句任务描述到可继续编辑的办公成果。</p></div>
+          <ul aria-label="千问办公适用场景"><li>文档</li><li>表格</li><li>PPT</li><li>资料整理</li></ul>
+          <footer><span>办公团队优先</span><strong>查看教程 →</strong></footer>
+        </a>
+        <a class="portal-tool-card portal-tool-card--codex" :href="withBase('/tools/codex/')">
+          <header><span class="portal-tool-card__code">CX</span><span class="portal-tool-card__status">研发协作</span></header>
+          <div><small>OPENAI CODEX</small><h3>Codex</h3><p>面向代码仓库的理解、修改、测试和审查，把明确需求推进为可验证的代码变更。</p></div>
+          <ul aria-label="Codex 适用场景"><li>读代码</li><li>修问题</li><li>做功能</li><li>跑验证</li></ul>
+          <footer><span>研发团队优先</span><strong>查看教程 →</strong></footer>
+        </a>
       </div>
     </section>
 

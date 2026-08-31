@@ -136,8 +136,21 @@ const casesSidebar: DefaultTheme.SidebarItem[] = [
   },
 ];
 
+const toolsSidebar: DefaultTheme.SidebarItem[] = [
+  { text: "工具库首页", link: "/tools/" },
+  {
+    text: "办公与研发",
+    collapsed: false,
+    items: [
+      { text: "千问办公", link: "/tools/qwen-office/" },
+      { text: "Codex", link: "/tools/codex/" },
+    ],
+  },
+];
+
 export const siteSidebar: DefaultTheme.Sidebar = {
   ...bluebookSidebar,
+  "/tools/": toolsSidebar,
   "/cases/": casesSidebar,
   "/community/case-contributing": casesSidebar,
 };

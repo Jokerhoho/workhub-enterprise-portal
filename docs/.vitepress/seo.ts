@@ -137,6 +137,7 @@ function breadcrumbName(segment: string): string {
     cases: "社区案例集",
     community: "社区共创",
     help: "帮你解决",
+    tools: "AI 工具库",
     "reading-guide": "WorkBuddy 学习指南",
   };
 

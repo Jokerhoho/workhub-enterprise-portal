@@ -19,7 +19,19 @@ export default defineConfig({
     cleanUrls: true,
     lastUpdated: true,
     srcExclude: ["**/source.md", "plans/**"],
-    sitemap: publicMode ? { hostname: siteUrl } : undefined,
+    sitemap: publicMode
+      ? {
+          hostname: new URL(siteUrl).origin,
+          transformItems: (items) =>
+            items.map((item) => ({
+              ...item,
+              url: new URL(
+                item.url.replace(/^\/+/, ""),
+                `${siteUrl.replace(/\/$/, "")}/`,
+              ).href,
+            })),
+        }
+      : undefined,
     buildEnd: (siteConfig) => {
       const robots = publicMode
         ? `User-agent: *\nAllow: /\n\nSitemap: ${siteUrl}/sitemap.xml\n`
@@ -63,6 +75,7 @@ export default defineConfig({
       siteTitle: "WorkHub 企业 AI 工作台",
       nav: [
         { text: "首页", link: "/" },
+        { text: "AI 工具库", link: "/tools/" },
         { text: "知识中心", link: "/bluebook/" },
         { text: "场景案例", link: "/cases/" },
         { text: "使用支持", link: "/help/" },
