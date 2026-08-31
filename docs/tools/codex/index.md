@@ -7,6 +7,23 @@ description: 面向企业研发场景的 Codex 使用指南，覆盖理解代码
 
 Codex 适合在代码仓库中理解结构、实现需求、修复问题、运行检查和审查变更。它不是“说完需求就自动上线”的黑盒：清晰的范围、可验证的验收标准、权限边界和人工审查仍然是可靠交付的关键。
 
+## 完整教程地图
+
+<div class="wb-guide-map">
+  <a href="./getting-started/"><span>01 · START</span><strong>环境与首个任务</strong><small>打开项目、确认权限、完成小改动</small></a>
+  <a href="./understand-repository/"><span>02 · READ</span><strong>读懂陌生仓库</strong><small>结构、入口、调用链和证据</small></a>
+  <a href="./implement-feature/"><span>03 · BUILD</span><strong>实现功能</strong><small>验收标准、垂直切片与小步交付</small></a>
+  <a href="./debug-test/"><span>04 · VERIFY</span><strong>调试与测试</strong><small>复现、根因、最小修复和回归测试</small></a>
+  <a href="./review-git/"><span>05 · REVIEW</span><strong>审查与 Git</strong><small>差异审查、提交、推送与回退</small></a>
+  <a href="./worktrees/"><span>06 · PARALLEL</span><strong>Worktrees 并行</strong><small>隔离任务、避免冲突、汇总结果</small></a>
+  <a href="./extensions/"><span>07 · EXTEND</span><strong>Skills、Plugins 与 MCP</strong><small>复用规范、连接工具与数据</small></a>
+  <a href="./delivery-governance/"><span>08 · SHIP</span><strong>自动化、安全与交付</strong><small>权限、联网、CI、发布和团队治理</small></a>
+</div>
+
+::: tip 推荐学习顺序
+新手先完成 01–05；需要并行、多工具连接或团队规模化时，再进入 06–08。
+:::
+
 ::: tip 适合从这里开始
 第一次使用时，选择一个范围明确的小任务，例如解释一个模块、补充一个测试、修改一处页面文字，或定位一个有稳定复现步骤的问题。
 :::

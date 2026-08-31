@@ -7,6 +7,23 @@ description: 面向企业办公场景的千问办公使用指南，覆盖文档�
 
 千问办公适合把资料、要求和交付标准组织成一个完整办公任务，产出可继续编辑的文档、表格、演示或网页。它提供网页端、桌面端以及钉钉内入口；不同账号、版本和授权范围可能有所差异。
 
+## 完整教程地图
+
+<div class="wb-guide-map">
+  <a href="./getting-started/"><span>01 · START</span><strong>入口与首个任务</strong><small>选对端、建立任务、找到成果</small></a>
+  <a href="./task-method/"><span>02 · METHOD</span><strong>写清复杂任务</strong><small>目标、输入、约束、交付与验收</small></a>
+  <a href="./documents/"><span>03 · DOC</span><strong>文档生产</strong><small>事实底稿、报告、纪要与制度稿</small></a>
+  <a href="./spreadsheets/"><span>04 · DATA</span><strong>表格分析</strong><small>数据体检、分析、图表与复核</small></a>
+  <a href="./presentations/"><span>05 · SLIDE</span><strong>PPT 汇报</strong><small>故事线、逐页制作与演讲验收</small></a>
+  <a href="./research-drive/"><span>06 · KNOWLEDGE</span><strong>资料研究与网盘</strong><small>来源管理、文件复用与事实追踪</small></a>
+  <a href="./automation-extensions/"><span>07 · SCALE</span><strong>网页、自动化与扩展</strong><small>Pages、定时任务、Skill 与连接器</small></a>
+  <a href="./cases-governance/"><span>08 · PRACTICE</span><strong>企业案例与治理</strong><small>三个完整案例、安全边界与落地清单</small></a>
+</div>
+
+::: tip 推荐学习顺序
+第一次使用按 01 → 02 → 任选一个产出章节学习；准备在团队推广时，再完成 06–08。
+:::
+
 ::: tip 适合从这里开始
 第一次使用时，先选一个低风险、结果容易检查的任务，例如整理会议纪要、分析脱敏后的表格，或把已有报告改成汇报提纲。
 :::

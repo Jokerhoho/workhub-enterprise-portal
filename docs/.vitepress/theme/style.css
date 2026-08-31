@@ -253,6 +253,12 @@ body.wb-lightbox-open { overflow: hidden; }
 .vp-doc th { border-color: #355267; color: #fff; background: #17324d; }
 .vp-doc td { border-color: var(--portal-line); }
 .vp-doc .mermaid { margin: 28px 0; padding: 24px; overflow-x: auto; border: 1px solid var(--portal-line); border-radius: 10px; background: var(--portal-panel); }
+.wb-guide-map { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; margin: 24px 0 34px; }
+.vp-doc .wb-guide-map > a { display: flex; min-height: 142px; flex-direction: column; padding: 20px; border: 1px solid var(--portal-line); border-radius: 11px; color: var(--portal-ink); background: var(--portal-panel); text-decoration: none; transition: transform .18s ease, border-color .18s ease, box-shadow .18s ease; }
+.vp-doc .wb-guide-map > a:hover { border-color: var(--portal-blue); box-shadow: 0 12px 28px rgba(23,50,77,.08); transform: translateY(-2px); }
+.wb-guide-map span { color: var(--portal-blue); font-family: var(--portal-mono); font-size: 10px; font-weight: 750; letter-spacing: .08em; }
+.wb-guide-map strong { margin-top: 22px; font-size: 17px; }
+.wb-guide-map small { margin-top: 5px; color: var(--portal-muted); font-size: 12px; line-height: 1.55; }
 .embed-note { margin: 24px 0; padding: 18px 20px; border: 1px solid var(--portal-line); border-left: 4px solid var(--portal-teal); border-radius: 9px; background: var(--portal-soft); }
 .VPDocAsideOutline .outline-title { font-size: 12px; font-weight: 750; }
 .VPDocAsideOutline .outline-link.active { color: var(--portal-blue); font-weight: 700; }
@@ -314,6 +320,7 @@ body.wb-lightbox-open { overflow: hidden; }
   .wb-traffic > div { padding: 12px; border-top: 1px solid var(--portal-line); }
   .wb-contact-grid { grid-template-columns: repeat(4, 180px); overflow-x: auto; }
   .vp-doc table { display: block; overflow-x: auto; }
+  .wb-guide-map { grid-template-columns: 1fr; }
 }
 
 @media (prefers-reduced-motion: reduce) {

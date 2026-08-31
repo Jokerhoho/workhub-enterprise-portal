@@ -139,12 +139,41 @@ const casesSidebar: DefaultTheme.SidebarItem[] = [
 const toolsSidebar: DefaultTheme.SidebarItem[] = [
   { text: "工具库首页", link: "/tools/" },
   {
-    text: "通用、办公与研发",
-    collapsed: false,
+    text: "WorkBuddy",
+    collapsed: true,
     items: [
       { text: "WorkBuddy", link: "/tools/workbuddy/" },
-      { text: "千问办公", link: "/tools/qwen-office/" },
-      { text: "Codex", link: "/tools/codex/" },
+      { text: "完整实战蓝皮书", link: "/bluebook/" },
+    ],
+  },
+  {
+    text: "千问办公 · 8 章",
+    collapsed: false,
+    items: [
+      { text: "教程总览", link: "/tools/qwen-office/" },
+      { text: "01 · 入口与首个任务", link: "/tools/qwen-office/getting-started/" },
+      { text: "02 · 写清复杂任务", link: "/tools/qwen-office/task-method/" },
+      { text: "03 · 文档生产", link: "/tools/qwen-office/documents/" },
+      { text: "04 · 表格分析", link: "/tools/qwen-office/spreadsheets/" },
+      { text: "05 · PPT 汇报", link: "/tools/qwen-office/presentations/" },
+      { text: "06 · 资料研究与网盘", link: "/tools/qwen-office/research-drive/" },
+      { text: "07 · 网页、自动化与扩展", link: "/tools/qwen-office/automation-extensions/" },
+      { text: "08 · 企业案例与治理", link: "/tools/qwen-office/cases-governance/" },
+    ],
+  },
+  {
+    text: "Codex · 8 章",
+    collapsed: false,
+    items: [
+      { text: "教程总览", link: "/tools/codex/" },
+      { text: "01 · 环境与首个任务", link: "/tools/codex/getting-started/" },
+      { text: "02 · 读懂陌生仓库", link: "/tools/codex/understand-repository/" },
+      { text: "03 · 实现功能", link: "/tools/codex/implement-feature/" },
+      { text: "04 · 调试与测试", link: "/tools/codex/debug-test/" },
+      { text: "05 · 审查与 Git", link: "/tools/codex/review-git/" },
+      { text: "06 · Worktrees 并行", link: "/tools/codex/worktrees/" },
+      { text: "07 · Skills、Plugins 与 MCP", link: "/tools/codex/extensions/" },
+      { text: "08 · 自动化、安全与交付", link: "/tools/codex/delivery-governance/" },
     ],
   },
 ];
